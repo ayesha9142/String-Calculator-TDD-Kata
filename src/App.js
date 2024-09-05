@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import HomePage from "./container/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>String Calculator TDD Kata</h1>
+      <HomePage />
     </div>
   );
 }
