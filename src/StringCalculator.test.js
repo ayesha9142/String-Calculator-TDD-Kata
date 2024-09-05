@@ -9,5 +9,9 @@ test("returns the number itself when one number is provided", () => {
 });
 
 test("returns the sum of two numbers", () => {
-  expect(add("1,2")).toBe(3);
+  expect(add("1,5")).toBe(6);
+});
+
+test("handles new lines between numbers", () => {
+  expect(add("1\n2,3")).toBe(6);
 });
